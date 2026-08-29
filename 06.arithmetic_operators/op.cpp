@@ -20,7 +20,7 @@ int main() {
 
     // cout << students << "\n";
     // cout << remainder << "\n";
-    int students = 20 * 1/ 2 + 5 - 3;
+    int students = 20 * 1/( 2 + 5) - 3;
     cout << students;
 
     return 0;
