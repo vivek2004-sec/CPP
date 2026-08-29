@@ -12,12 +12,13 @@ int main() {
     text_t name ;
     num  age;
     cout << "What is your name?:  ";
-    cin >> name;
+    std::getline(std::cin, name) ;
+   
     cout << "What is your age?: ";
     cin >> age;
 
-    cout << "Hello " << name << "\n";
-    cout << age;
+    cout << "Hello " << name << std::endl;
+    cout <<"you are "<< age << "  years old.";
 
     return 0;
 }
