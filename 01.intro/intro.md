@@ -1,0 +1,1 @@
+C++ is a high-performance, general-purpose programming language developed by Bjarne Stroustrup as an extension of the C programming language. It is one of the most widely used languages in the world, known for providing programmers with extreme control over system resources and memory.
