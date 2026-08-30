@@ -18,7 +18,7 @@ int main () {
     // z = abs(  -3);
     // z = round(x);
     // z = ceil(x);
-    z = floor(x);
+    // z = floor(x);
 
     cout << z;
 
