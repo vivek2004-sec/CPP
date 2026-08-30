@@ -28,14 +28,27 @@
 //     return 0;
 // }
 
+// int main()
+// {
+//     // ||(or logical operator.): checks if one of two conditions is true.
+
+//     int temp;
+//     std::cout << "Enter the temperture: ";
+//     std::cin >> temp;
+
+//     temp > 0 || temp < 30 ? std::cout << "This is right temperature." : std::cout << "Invalid Input.";
+//     return 0;
+// }
+
 int main()
 {
-    // ||(or logical operator.): checks if one of two conditions is true.
+    // ! (not ): it reverses the logical state of the operator.
 
     int temp;
-    std::cout << "Enter the temperture: ";
+    std::cout << "Enter the temperature: ";
     std::cin >> temp;
 
-    temp > 0 || temp < 30 ? std::cout << "This is right temperature." : std::cout << "Invalid Input.";
+    !temp > 0 ? std::cout << "This is good." : std::cout << "Invalid Input";
+
     return 0;
 }
