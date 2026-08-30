@@ -7,8 +7,8 @@ int main() {
     using std::cin;
 // c = sqrt(a^2 + b^2)
 
-    int a ;
-    int b;
+    double a ;
+    double b;
     double c;
     cout << "Enter Value of a: ";
     cin >> a;
