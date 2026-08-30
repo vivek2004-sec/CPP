@@ -2,6 +2,7 @@
 #include <cmath>
 
 int main() {
+//  Hypotenuse of a right angled triangle.
     using std::cout;
     using std::cin;
 // c = sqrt(a^2 + b^2)
@@ -15,12 +16,15 @@ int main() {
     cin >> b;
 
    
-    a = pow(2, a);
-    b = pow(2, b);
+    // a = pow(2, a);
+    // b = pow(2, b);
 
-    c = sqrt(a + b);
-    cout << "The hypotenuse of triangle is: " <<(double) c;
+    // c  = sqrt(a + b);
+    // cout << "The hypotenuse of triangle is: " << c;
     
+    // area of rectangle
+    c = (a *b);
+    cout << "The area of rectangle is: "<< c;
 
 
     return 0;
