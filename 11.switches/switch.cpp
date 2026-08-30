@@ -117,6 +117,8 @@ int main()
     case 12:
         std::cout << "It's December";
         break;
+    default:
+        std::cout << "Enter valid Input.";
     }
     return 0;
 }
