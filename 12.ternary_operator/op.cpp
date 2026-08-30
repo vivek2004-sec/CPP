@@ -11,7 +11,7 @@ int main()
     // std::cin >> number;
     // number % 2 == 0 ? std::cout << "Even" : std::cout << "Odd";
 
-    bool hungry = false;
-    std::cout << (hungry ? "you are hungry" : "You are full.");
+    // bool hungry = false;
+    // std::cout << (hungry ? "you are hungry" : "You are full.");
     return 0;
 }
