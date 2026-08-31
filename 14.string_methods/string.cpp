@@ -10,7 +10,8 @@ int main()
     // bool emp = name.empty();
     // std::cout << len;
     // name.append("@gmail.com");
-    name.insert(2, "@");
+    // name.insert(2, "@");
+    // name.clear();
     std::cout << name;
 
     return 0;
