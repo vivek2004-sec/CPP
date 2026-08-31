@@ -40,15 +40,15 @@
 //     return 0;
 // }
 
-int main()
-{
-    // ! (not ): it reverses the logical state of the operator.
+// int main()
+// {
+//     // ! (not ): it reverses the logical state of the operator.
 
-    int temp;
-    std::cout << "Enter the temperature: ";
-    std::cin >> temp;
+//     int temp;
+//     std::cout << "Enter the temperature: ";
+//     std::cin >> temp;
 
-    !temp > 0 ? std::cout << "This is good." : std::cout << "Invalid Input";
+//     !temp > 0 ? std::cout << "This is good." : std::cout << "Invalid Input";
 
-    return 0;
-}
+//     return 0;
+// }
