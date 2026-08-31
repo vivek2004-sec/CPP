@@ -8,6 +8,7 @@ int main()
         {
             std::cout << j;
         }
+        std::cout << "\n";
     }
     return 0;
 }
