@@ -13,7 +13,9 @@ int main()
     // name.insert(2, "@");
     // name.clear();
     // std::cout << name.at(0);
-    std::cout << name.find(" ");
+    // std::cout << name.find(" ");
+    name.erase(0, 2);
+
     std::cout << name;
 
     return 0;
