@@ -1,17 +1,11 @@
 #include <iostream>
 
-namespace first_name
-{
-    std::string name = "vivek";
-}
+typedef int digit_t;
 
 int main()
 {
-
-    std::string name = "rishi";
-
-    std::cout << first_name::name << std::endl;
-    std::cout << name;
+    digit_t x;
+    std::cin >> x;
 
     return 0;
 }
