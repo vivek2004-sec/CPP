@@ -1,15 +1,16 @@
 #include <iostream>
 
-void happy();
+void happy(std::string name);
 
 int main()
 {
-
-    happy();
+    std::string name;
+    std::cin >> name;
+    happy(name);
     return 0;
 }
 
-void happy()
+void happy(std::string name)
 {
-    std::cout << "Happy Birthday!";
+    std::cout << "Happy Birthday! " << name;
 }
